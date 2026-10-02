@@ -1,0 +1,8 @@
+{
+  "name": "Student Information Website",
+  "description": "A simple beginner-level student portfolio and information website created using pure HTML and CSS for 1st Year BSc IT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

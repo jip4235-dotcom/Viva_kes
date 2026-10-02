@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags for Character Encoding and Mobile Responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the Web Page displayed in the browser tab -->
+    <title>Student Information Website</title>
+    <meta name="description" content="A simple beginner-level student portfolio and information website created using pure HTML and CSS for 1st Year BSc IT.">
+    <meta property="og:title" content="Student Information Website">
+    <meta property="og:description" content="A simple beginner-level student portfolio and information website created using pure HTML and CSS for 1st Year BSc IT.">
+
+    <!-- Linking External CSS Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- ========================================================= -->
+    <!-- 1. NAVIGATION BAR                                         -->
+    <!-- Contains the website logo and clickable navigation links  -->
+    <!-- ========================================================= -->
+    <nav>
+        <div class="logo">My Student Website</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#subjects">My Subjects</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container to align and center the content -->
+    <div class="container">
+
+        <!-- ========================================================= -->
+        <!-- 2. HOME SECTION                                           -->
+        <!-- Welcome hero banner showing student information           -->
+        <!-- ========================================================= -->
+        <section id="home">
+            <!-- Student Avatar / Initials Circle -->
+            <div class="profile-avatar">PP</div>
+
+            <!-- Main Heading / Student Name -->
+            <h1>Prakash Pandey</h1>
+
+            <!-- Subtitle -->
+            <h2>BSc IT Student Portfolio</h2>
+
+            <!-- Student Badges / Details -->
+            <div>
+                <span class="badge-info">Course: BSc IT</span>
+                <span class="badge-info">Year: First Year</span>
+                <span class="badge-info">Semester: First Semester</span>
+            </div>
+
+            <!-- Short Welcome Message -->
+            <p class="welcome-text">
+                Welcome to my first college project website! I am currently studying in the 1st Semester 
+                of Bachelor of Science in Information Technology (BSc IT). This website is created as part of 
+                my Web Technology coursework using pure HTML and basic CSS to showcase my academic profile, 
+                subjects, and skills.
+            </p>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 3. ABOUT ME SECTION                                       -->
+        <!-- Information about student background, education & goals   -->
+        <!-- ========================================================= -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-grid">
+                <!-- Introduction Card -->
+                <div class="about-card">
+                    <h3>Student Introduction</h3>
+                    <p>
+                        Hello! My name is Prakash Pandey. I have a keen interest in computers, technology, 
+                        and software development. I recently enrolled in the BSc IT program to build a strong 
+                        foundation in computer science concepts and web development.
+                    </p>
+                </div>
+
+                <!-- Educational Qualification Card -->
+                <div class="about-card">
+                    <h3>Educational Qualification</h3>
+                    <ul>
+                        <li><strong>Current:</strong> First Year BSc IT (Semester 1)</li>
+                        <li><strong>12th (HSC - Science):</strong> Passed with First Class</li>
+                        <li><strong>10th (SSC):</strong> Passed with Distinction</li>
+                    </ul>
+                </div>
+
+                <!-- Hobbies Card -->
+                <div class="about-card">
+                    <h3>My Hobbies</h3>
+                    <ul>
+                        <li>Practicing basic programming in C and HTML</li>
+                        <li>Reading technology articles and tech news</li>
+                        <li>Playing cricket and chess</li>
+                        <li>Computer gaming and exploring new software</li>
+                    </ul>
+                </div>
+
+                <!-- Career Goal Card -->
+                <div class="about-card">
+                    <h3>Career Goal</h3>
+                    <p>
+                        My goal is to complete my graduation in BSc IT with top grades and become a skilled 
+                        Full Stack Web Developer. I aim to work in a reputed IT organization where I can 
+                        build impactful web applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 4. MY SUBJECTS SECTION                                    -->
+        <!-- A clean table presenting 1st semester BSc IT subjects     -->
+        <!-- ========================================================= -->
+        <section id="subjects">
+            <h2 class="section-title">My Subjects (Semester 1)</h2>
+            <p style="text-align: center; color: #555; margin-bottom: 20px;">
+                Below is the list of academic subjects prescribed for First Year BSc IT Semester 1:
+            </p>
+
+            <table class="subjects-table">
+                <thead>
+                    <tr>
+                        <th>Sr. No.</th>
+                        <th>Subject Name</th>
+                        <th>Subject Code</th>
+                        <th>Type</th>
+                        <th>Brief Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><strong>Programming in C</strong></td>
+                        <td>USIT101</td>
+                        <td><span class="tag tag-practical">Theory + Lab</span></td>
+                        <td>Basics of C language, data types, loops, arrays, functions, and pointers.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><strong>Web Technology</strong></td>
+                        <td>USIT102</td>
+                        <td><span class="tag tag-practical">Theory + Lab</span></td>
+                        <td>Introduction to Internet, WWW, HTML tags, basic CSS styling, and web forms.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><strong>Mathematics</strong></td>
+                        <td>USIT103</td>
+                        <td><span class="tag tag-theory">Theory</span></td>
+                        <td>Discrete mathematics, set theory, relations, functions, and logical reasoning.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><strong>Communication Skills</strong></td>
+                        <td>USIT104</td>
+                        <td><span class="tag tag-theory">Theory</span></td>
+                        <td>Effective technical communication, presentation skills, and business writing.</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><strong>Information Technology</strong></td>
+                        <td>USIT105</td>
+                        <td><span class="tag tag-practical">Theory + Lab</span></td>
+                        <td>Fundamentals of computers, hardware, operating systems, and networking basics.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 5. MY SKILLS SECTION                                      -->
+        <!-- Showing technical and computer skills with visual bars    -->
+        <!-- ========================================================= -->
+        <section id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <p style="text-align: center; color: #555; margin-bottom: 25px;">
+                Skills learned during my First Semester coursework and self-study:
+            </p>
+
+            <div class="skills-container">
+                <!-- Skill 1: HTML -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>HTML (HyperText Markup Language)</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill html-fill"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2: CSS -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>CSS (Cascading Style Sheets)</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill css-fill"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3: C Programming -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>C Programming</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill c-fill"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4: MS Office -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>MS Office (Word, PowerPoint, Excel)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill office-fill"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5: Basic Computer Knowledge -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span>Basic Computer Knowledge & Operating Systems</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill computer-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 6. CONTACT SECTION                                        -->
+        <!-- Simple HTML Contact Form for feedback or inquiries        -->
+        <!-- ========================================================= -->
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p style="text-align: center; color: #555; margin-bottom: 25px;">
+                Feel free to send a message or question regarding my college project:
+            </p>
+
+            <!-- HTML Form with standard input fields and validation attributes -->
+            <form class="contact-form" action="#contact" method="GET">
+                
+                <!-- Name Field -->
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <!-- Phone Number Field -->
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit mobile number" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number" required>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message or inquiry here..." required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn-submit">Submit Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p>College: Department of Information Technology</p>
+                <p>Email: prakashpandey9702@gmail.com | Location: Mumbai, India</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ========================================================= -->
+    <!-- 7. FOOTER SECTION                                         -->
+    <!-- Simple footer with copyright and project information      -->
+    <!-- ========================================================= -->
+    <footer>
+        <p>&copy; 2026 Prakash Pandey. All Rights Reserved.</p>
+        <p class="footer-subtext">First Year BSc IT - Semester 1 College Viva Project | Built with Pure HTML &amp; Basic CSS</p>
+    </footer>
+
+</body>
+</html>
